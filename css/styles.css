@@ -232,10 +232,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .top-line {
   box-sizing: border-box;
   align-items: center;
   height: 80px;
+  border-bottom: 1px solid #ececec;
 }
 .main-nav-item,
 .contact-info {
