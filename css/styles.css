@@ -1,6 +1,8 @@
 /*Колір тексту і частин сторінки*/
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: Roboto;
 }
 
@@ -229,6 +231,11 @@ body {
   justify-content: space-between;
   margin: 0;
   padding: 0;
+}
+.top-line {
+  box-sizing: border-box;
+  align-items: center;
+  height: 80px;
 }
 .main-nav-item,
 .contact-info {
