@@ -209,7 +209,7 @@ body {
 
 /*Геометрія елементів і флексбокс*/
 
-.top-line,
+.header-section,
 .benefits-section,
 .our-work-section,
 .our-team-section,
@@ -222,11 +222,13 @@ body {
   max-width: 1170px;
   margin: auto;
 }
-
+.header-section {
+  align-items: center;
+}
 .top-line {
   max-width: none;
-  justify-content: center;
-  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #ececec;
 }
 
 .main-nav,
@@ -245,10 +247,6 @@ body {
   padding: 0;
 }
 
-.top-line {
-  height: 80px;
-  border-bottom: 1px solid #ececec;
-}
 .main-nav-item,
 .contact-info {
   padding: 0 25px;
