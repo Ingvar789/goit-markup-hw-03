@@ -222,6 +222,13 @@ body {
   max-width: 1170px;
   margin: auto;
 }
+
+.top-line {
+  max-width: none;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-nav,
 .contacts,
 .benefits-container,
@@ -239,11 +246,8 @@ body {
 }
 
 .top-line {
-  box-sizing: border-box;
-  align-items: center;
   height: 80px;
   border-bottom: 1px solid #ececec;
-  border-width: 100%;
 }
 .main-nav-item,
 .contact-info {
