@@ -224,6 +224,7 @@ body {
 }
 .header-section {
   align-items: center;
+  padding: 30px 0;
 }
 .top-line {
   max-width: none;
