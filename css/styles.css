@@ -276,7 +276,7 @@ body {
 .our-team-section {
   flex-direction: column;
 }
-.our-team-section {
+.our-team-background {
   background: #f5f4fa;
 }
 
@@ -334,9 +334,7 @@ body {
   padding: 20px 24px;
   margin-top: -5px;
 }
-.main {
-  padding: 94px 0;
-}
+
 .portfolio-image {
   margin: 0;
 }
