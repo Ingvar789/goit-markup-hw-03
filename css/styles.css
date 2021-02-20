@@ -269,7 +269,7 @@ body {
   padding-right: 0;
 }
 .benefits-item:first-child {
-  padding-right: 0;
+  padding-left: 0;
 }
 
 .our-work-section,
