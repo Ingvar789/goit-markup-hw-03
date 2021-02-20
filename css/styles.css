@@ -307,6 +307,7 @@ body {
 }
 
 .portfolio-navigation {
+  box-sizing: content-box;
   max-width: 611px;
 }
 
@@ -331,6 +332,7 @@ body {
   border-left: 1px solid #eeeeee;
   margin: 0;
   padding: 20px 24px;
+  margin-top: -5px;
 }
 .main {
   padding: 94px 0;
