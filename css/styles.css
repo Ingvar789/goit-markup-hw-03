@@ -44,6 +44,8 @@ body {
   text-decoration: none;
   padding: 6px 22px;
   border: none;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .blue-button-hover-item:not(:last-child) {
@@ -178,6 +180,7 @@ body {
 
 /*проекти в порфоліо*/
 .projects-names {
+  margin: 0;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -209,17 +212,11 @@ body {
 
 /*Геометрія елементів і флексбокс*/
 
-.header-section,
-.benefits-section,
-.our-work-section,
-.our-team-section,
-.footer-section,
-.portfolio-section,
-.portfolio-navigation {
+.container {
   display: flex;
   justify-content: space-between;
-  padding: 32px 0;
-  max-width: 1170px;
+  padding: 32px 15px;
+  max-width: 1200px;
   margin: auto;
 }
 .header-section {
@@ -228,7 +225,6 @@ body {
 }
 .top-line {
   max-width: none;
-  height: 80px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -266,6 +262,7 @@ body {
 }
 
 .benefits-item {
+  max-width: 270px;
   padding: 15px;
 }
 .benefits-item:last-child {
@@ -278,6 +275,9 @@ body {
 .our-work-section,
 .our-team-section {
   flex-direction: column;
+}
+.our-team-section {
+  background: #f5f4fa;
 }
 
 .our-work-container img {
@@ -305,6 +305,36 @@ body {
 .portfolio-container {
   flex-wrap: wrap;
 }
+
 .portfolio-navigation {
   max-width: 611px;
+}
+
+.address {
+  font-style: normal;
+}
+
+.portfolio-item {
+  box-sizing: border-box;
+  max-width: 370px;
+  margin: 15px;
+}
+.portfolio-item:nth-child(3n + 1) {
+  margin-left: 0;
+}
+.portfolio-item:nth-child(3n + 3) {
+  margin-right: 0;
+}
+.portfolio-item-description {
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  margin: 0;
+  padding: 20px 24px;
+}
+.main {
+  padding: 94px 0;
+}
+.portfolio-image {
+  margin: 0;
 }
