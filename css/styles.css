@@ -34,14 +34,10 @@ body {
 
 .blue-button-hover {
   color: #212121;
-  background-color: white;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  justify-content: center;
-  letter-spacing: 0.03em;
-  text-decoration: none;
   padding: 6px 22px;
   border: none;
   background: #f5f4fa;
@@ -276,7 +272,11 @@ body {
 .our-team-section {
   flex-direction: column;
 }
+.our-team-section {
+  padding-bottom: 94px;
+}
 .our-team-background {
+  margin-bottom: 0;
   background: #f5f4fa;
 }
 
@@ -307,6 +307,8 @@ body {
 }
 
 .portfolio-navigation {
+  padding-top: 0;
+  padding-bottom: 13px;
   box-sizing: content-box;
   max-width: 611px;
 }
@@ -337,4 +339,23 @@ body {
 
 .portfolio-image {
   margin: 0;
+}
+
+.our-team-item {
+  background-color: #ffffff;
+}
+
+.main {
+  margin-top: 94px 0;
+}
+
+.benefits-section {
+  padding-top: 0;
+}
+
+.portfolio-section {
+  padding-bottom: 89px;
+}
+.portfolio-main {
+  margin-top: 94px;
 }
